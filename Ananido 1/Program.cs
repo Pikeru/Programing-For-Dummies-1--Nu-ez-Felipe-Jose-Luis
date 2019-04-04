@@ -10,6 +10,9 @@ namespace Ananido_1
     {
         static void Main(string[] args)
         {
+            Word word = new Word();
+            word.Iniciar();
+            Console.ReadKey();
         }
     }
 }
